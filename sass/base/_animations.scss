@@ -1,0 +1,45 @@
+/*ANIMATIONS*/
+
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10rem); /*I want to translate in x direction ---> */
+	}
+
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0px);
+	}
+}
+
+@keyframes moveInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(10rem); /*I want to translate in x direction <--- */
+	}
+
+	80% {
+		transform: translateX(-1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0px);
+	}
+}
+
+@keyframes moveInButton {
+	0% {
+		opacity: 0;
+		transform: translateY(3rem); /*I want to translate in x direction <--- */
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0px);
+	}
+}
